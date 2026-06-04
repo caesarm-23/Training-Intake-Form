@@ -862,7 +862,7 @@
   <!-- PAGE 4: Schedule & Commitment -->
   <div class="form-page" id="page-4">
     <div class="page-title">Availability & Commitment</div>
-    <div class="page-subtitle">Elevate Soccer Training — weekends in the Kyle / Austin area. Let us know what works for you.</div>
+    <div class="page-subtitle">Elevate Soccer Training — weekends in the Greater Austin area. Let us know what works for you.</div>
 
     <div class="field-group">
       <label>Preferred Training Day <span class="req">*</span></label>
@@ -914,7 +914,7 @@
 
     <div class="nav-buttons">
       <button class="btn-back" onclick="prevPage(4)">&larr;</button>
-      <button class="btn-submit" onclick="submitForm()">Request My Free Intro Session</button>
+      <button class="btn-submit" onclick="submitForm()">Request My First Session — $80</button>
     </div>
   </div>
 
@@ -1101,12 +1101,12 @@
         window.scrollTo({ top: 0, behavior: 'smooth' });
       } else {
         // Show error without breaking the design
-        btn.textContent = 'Request My Free Intro Session';
+        btn.textContent = 'Request My First Session — $80';
         btn.disabled = false;
         alert('Something went wrong submitting the form. Please try again or reach out directly.');
       }
     } catch (err) {
-      btn.textContent = 'Request My Free Intro Session';
+      btn.textContent = 'Request My First Session — $80';
       btn.disabled = false;
       alert('Network error. Please check your connection and try again.');
     }
